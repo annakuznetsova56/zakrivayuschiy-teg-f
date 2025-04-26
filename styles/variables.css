@@ -1,28 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --text-font: 'Inter';
-    --accent-font: 'PressStart2P'; 
-    --text-wght: 400;
-    --title-wght: 700;
-    --label-stroke-color: #fff;
-    --bg-color: #fff;
-    --text-color: #000;
-    --accent-color: #000;
-    --section-wdth: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-    --popup-wdth: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
-    --bg-image: 
-        repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), 
-        repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), 
-        linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-    
-    --contour-color: #000;
-    --animation-fill-color: #ff0000;
-    --hover-fill-color: #000;
+  --text-font: "Inter";
+  --accent-font: "PressStart2P";
+  --text-wght: 400;
+  --title-wght: 700;
+  --label-stroke-color: #fff;
+  --bg-color: #fff;
+  --text-color: #000;
+  --accent-color: #000;
+  --section-wdth: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --popup-wdth: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --hover-fill-color: #000;
 }
 
 @media (width <= 375px) {
-    :root {
-        --sector-wdth: 100%;
-    }
+  :root {
+    --sector-wdth: 100%;
+  }
 }
