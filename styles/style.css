@@ -79,11 +79,14 @@
 
 .card__image-container {
   position: relative;
+  overflow: hidden;
 }
 
 .card__image {
   inline-size: 100%;
   aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
 }
 
 .bright {
@@ -102,8 +105,8 @@
   filter: saturate(150%);
 }
 
-.sepia {
-  filter: sepia(0.6);
+.sepia-contrast {
+  filter: sepia(0.4) contrast(130%);
 }
 
 .opacity {
@@ -111,11 +114,11 @@
 }
 
 .contrast {
-  filter: contrast(210%);
+  filter: contrast(160%);
 }
 
 .invert {
-  filter: invert(90%);
+  filter: invert(30%);
 }
 
 .card__image-label {
