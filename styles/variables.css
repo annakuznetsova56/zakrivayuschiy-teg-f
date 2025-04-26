@@ -10,7 +10,7 @@
   --text-color: #000;
   --accent-color: #000;
   --section-wdth: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-  --popup-wdth: clamp(341px, 21.0484rem + 1.1268vw, 22.0625rem);;
+  --popup-wdth: clamp(341px, 21.0484rem + 1.1268vw, 22.0625rem);
   --bg-image: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
